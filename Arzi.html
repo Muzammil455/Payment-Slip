@@ -98,7 +98,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Al Kundi Farming Store<br>Payment Slip</h1>
+    <h1>Farming Store<br>Payment Slip</h1>
     <div class="form-group">
       <label for="customer-name">Customer Name:</label>
       <input type="text" id="customer-name" placeholder="Enter customer name" />
@@ -211,7 +211,7 @@
       const customer = document.getElementById('customer-name').value || 'N/A';
       const date = document.getElementById('date').value;
 
-      doc.text('Al Kundi Farming Store', 10, 10);
+      doc.text('Farming Store', 10, 10);
       doc.text(`Customer: ${customer}`, 10, 20);
       doc.text(`Date: ${date}`, 10, 30);
 
